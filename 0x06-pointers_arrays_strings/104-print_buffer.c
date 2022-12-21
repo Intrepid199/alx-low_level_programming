@@ -48,6 +48,4 @@ void print_buffer(char *b, int size)
 
 		o += 10;
 	}
-
-	return (0);
 }
