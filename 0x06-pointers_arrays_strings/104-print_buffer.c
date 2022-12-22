@@ -1,12 +1,11 @@
 #include "main.h"
-
-#include <stdio.h>
+#include <stdio.>
 
 /**
- *  print_buffer - prints buffer
- *  @b: buffer
- *  @size: size
- *  Return: void
+ * print_buffer - prints buffer
+ * @b: buffer
+ * @size: size
+ * Return: void
  */
 
 void print_buffer(char *b, int size)
@@ -18,7 +17,7 @@ void print_buffer(char *b, int size)
 	if (size <= 0)
 	{
 		printf("\n");
-		return (0);
+		return;
 	}
 	while (o < size)
 	{
@@ -34,6 +33,7 @@ void print_buffer(char *b, int size)
 			{
 				printf(" ");
 			}
+
 		}
 		for (i = 0; i < j; i++)
 		{
@@ -49,4 +49,3 @@ void print_buffer(char *b, int size)
 		o += 10;
 	}
 }
-
